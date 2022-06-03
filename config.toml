@@ -1,0 +1,4 @@
+baseURL = 'https://www.dorian.dog/'
+languageCode = 'en-us'
+title = 'Dorian Gray, the wire haired dachshund'
+theme = "AutoPhugo"
