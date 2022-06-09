@@ -1,7 +1,7 @@
 baseURL = "https://www.dorian.dog/"
 languageCode = "en-us"
 title = "Dorian Gray"
-theme = "AutoPhugo"
+theme = "autophugo"
 #googleAnalytics = ""
 disableKinds = ["taxonomy", "term"]
 #[taxonomies]
