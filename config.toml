@@ -9,13 +9,13 @@ disableKinds = ["taxonomy", "term"]
 #    category = "categories"
 
 [Author]
-name = "Jacob Pleiness"
-email = "jacobpleiness@jacobpleiness.com"
+    name = "Jacob Pleiness"
+    email = "jacobpleiness@jacobpleiness.com"
 
 [params]
     # Meta
     description = "Dorian Gray, the Wirehaired Dachshund"
-    keywords = "Dorian, Gray, wire, hair, wirehaired, dachshund, cute, teckle, weiner, weiner dog, hotdog"
+    keywords = "Dorian, Gray, wire, hair, wirehaired, dachshund, cute, teckle, weiner, weinerdog, hotdog"
     #msvalidate = ""
     #googlesiteverification = ""
     #thumb_width = 480

@@ -1,2 +1,8 @@
+# macOS
 .DS_Store
+
+# JetBrians
 .idea/
+
+# Hugo
+public
