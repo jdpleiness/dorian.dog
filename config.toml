@@ -1,4 +1,83 @@
-baseURL = 'https://www.dorian.dog/'
-languageCode = 'en-us'
-title = 'Dorian Gray, the wire haired dachshund'
+baseURL = "https://www.dorian.dog/"
+languageCode = "en-us"
+title = "Dorian Gray"
 theme = "AutoPhugo"
+#googleAnalytics = ""
+disableKinds = ["taxonomy", "term"]
+#[taxonomies]
+#    tag = "tags"
+#    category = "categories"
+
+[Author]
+name = "Jacob Pleiness"
+email = "jacobpleiness@jacobpleiness.com"
+
+[params]
+    # Meta
+    description = "Dorian Gray, the Wirehaired Dachshund"
+    keywords = "Dorian, Gray, wire, hair, wirehaired, dachshund, cute, teckle, weiner, weiner dog, hotdog"
+    #msvalidate = ""
+    #googlesiteverification = ""
+    #thumb_width = 480
+    thumb_quality = 75
+    #full_width = 960
+    full_quality = 100
+    #column_count = 2
+    #breadcrumb_use_title = false
+    #filename_as_phototitle = false
+    images_downloadable = false
+    #images_downloadable_use_orig = false
+    #taxonomies_links = false
+
+    # Headerbar links
+    # Do not put too many links here,
+    # it will break mobile appearance
+
+    [[params.header.links]]
+    name = "About"
+    url = "#footer"
+    icon = "fa-info-circle"
+
+    # Footer panel
+
+    [params.footer.paragraph]
+    headline = "Dorian Gray, the Wirehaired Dachshund"
+    text = "Dorian Gray is a wirehaird dachshund living his best life. On any given day you can find him wallowing in a river, zooming through tall grass, or spending time with his human."
+
+    # Contact form
+
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'realEmail' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+
+    [params.footer.contact]
+    hide = true # Set this to true if you don't want to have a contact form on your site
+    realEmail = "example@example.org"
+    headline = "Get in touch"
+    buttonText = "Send"
+    resetText = "Reset"
+
+    # 'warning' defines error messages for invalid inputs
+    [params.footer.contact.name]
+    text = "Name *"
+    warning = "Please, enter your name"
+
+    [params.footer.contact.email]
+    text = "Email *"
+    warning = "Please, enter your email."
+
+    [params.footer.contact.message]
+    text = "Message *"
+    warning = "Please, enter your message"
+
+    # Copyright
+    [params.footer.copyright]
+    name = "Jacob Pleiness"
